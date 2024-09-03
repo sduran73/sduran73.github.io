@@ -1,0 +1,383 @@
+
+/*
+==Timeline==
+
+.timeline {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    width: 90%;
+    
+}
+
+.timeline ul li {
+    margin-bottom: 50px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.point {
+    min-width: 20px;
+    height: 20px;
+    background-color:#83939d;
+    border-radius: 100%;
+    z-index: 2;
+    border: 3px #333333 solid;
+    position: relative;
+    left: 1px;
+}
+
+.timeline ul li .content {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.timeline ul li figure {
+    margin-bottom: 5;
+    text-align: center;
+}
+
+.timeline ul li figure img {
+    width: 9em;
+ }
+
+.timeline ul li:nth-child(odd) .content {
+    padding-left: 0;
+}
+
+.timeline ul li:nth-child(odd) .date {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .content {
+    padding-right: 0;
+}
+
+.timeline ul li:nth-child(even) .date {
+    padding-left: 0;
+}
+
+.timeline ul li .date {
+    width: 50%;
+    padding: 0 20px;
+    font-weight: normal;
+}
+
+.timeline ul li .date h4 {
+    background-color: #d8dce7;
+    width: 100px;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.timeline ul li .content h3 {
+    padding: 10px 20px;
+    color: white;
+    background-color:#A9A9A9;
+    margin-bottom: 0;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.timeline ul li .content #nom-metier {
+    padding: 10px 20px;
+    background-color:#d8dce7;
+    font-size: 110%;
+    text-align: center;
+}
+
+.timeline ul li .content p {
+    padding: 10px 20px;
+    background-color:#d8dce7;
+    margin-top: 0;
+    text-align: left;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.timeline ul li:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.timeline ul li:nth-child(even) .date h4 {
+    float: right
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    left: 50%;
+    background-color: #333333;
+}
+*/
+/*Bandeau lateral*/
+
+#titre-metier {
+    padding-top: 0.1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    font-size: 1.4rem;
+}
+
+
+
+ /*Bandeau page accueil*/
+
+.cta-section {
+    margin-top: 1em;
+}
+
+.cta-section .container .heading {
+    padding-bottom: 0.5em;
+}
+
+.cta-section .container p .btn {
+   margin-top: 0.6em;
+}
+
+/*Card page accueil*/
+
+.list-styled {
+   padding-left:0
+}
+
+
+ /*Page portfolio*/
+
+ .blog-list .container .item .media .portfolio .post-thumb {
+    max-width: 250px;
+    border: 1px solid#83939d;
+}
+
+ .blog-list .container .item .media a img {
+    border: 1px solid#83939d;
+}
+
+  /*Footer*/
+.footer #footer-date {
+    text-align: right;
+    padding-right: 1em;
+}
+
+#date {
+    color: grey;  
+}
+
+/*cards accueil*/
+.pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+
+  .about-section .container .card-deck .card .h6 {
+    color: #fff;
+  }
+
+/*autres-formations*/
+
+.item .media .autres-formations h6 {
+    font-size:1em;
+  }
+
+/* Effet survol image Opacity #1 */
+.img-opacity {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.img-opacity:hover {
+	opacity: .5;
+}
+
+
+.img-legend {
+	text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.img-80 {
+	width: 25em;
+}
+
+/* barre verticale blockquote */
+ blockquote {
+    background: #f9f9f9;
+    border-left: 8px solid #bbd2e1;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+  }
+  blockquote:before {
+    color: #ccc;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+  }
+  blockquote p {
+    display: inline;
+  }
+
+/* slider video */
+
+.video-slider {
+    width: 100%;
+    height: 35em;
+
+ /*  background: #FFF; */
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.slide:first-child{
+    left: 0;
+}
+
+/* Fin slider video */
+
+
+/*
+.overlay-content {
+    background: rgba(0, 0, 0, .7);
+    opacity: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+} */
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 4em;
+    height: 3em;
+    margin-top: -1.5em;
+    margin-left: -2em;
+    background: #bbd2e1;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.play-button:after {
+    content:"\25b6";
+    font-size: 2em;
+    line-height: 1.4em;
+}
+video{
+    max-height: 100%;
+    max-width: 100%;
+}
+.slide-arrow{
+    position: absolute;
+    color:#bbd2e1;
+    top: 0;
+    left: 0;
+    height: 45%;
+    width: 15%;
+    cursor: pointer;
+    opacity: 100%;
+}
+.slide-arrow:hover{
+    opacity: 1;
+}
+.slide-arrow:after{
+    content: "\003c";
+    color:#bbd2e1;
+    text-align: center;
+    display: block;
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 3em;
+}
+.slide-arrow.right:after{
+    content: "\003e";
+}
+.slide-arrow.right{
+    left: auto;
+    right: 0;
+}
+
+/* Fin slider video */
+
+
+
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+ @media (max-width: 800px) {
+    .point {
+        min-width: 15px;
+        height: 15px;
+    }
+
+    html, body {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    html, body {
+        font-size: 14px;
+    }
+    
+    .point {
+        min-width: 12px;
+        height: 12px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    #titre-metier {
+        padding-top: 3.875rem;
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 450px) {
+    html, body {
+        font-size: 10px;
+    }
+
+    p {
+        padding: 10px !important;
+    }
+}
+  
